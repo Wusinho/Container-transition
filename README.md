@@ -17,7 +17,7 @@
 
 **This project was created for the sole purpose of understanding how transition works.**
 
-![screenshot](./images/screenshot.png)
+![screenshot](./Assets/screenshot.png)
 
 ## Built With
 
@@ -39,7 +39,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Wusinho/NY-times/issues/).
+Feel free to check the [issues page](https://github.com/Wusinho/Container-transition/issues).
 
 ## Show your support
 
