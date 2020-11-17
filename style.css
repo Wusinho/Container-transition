@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+
+.main {
+  display: flex;
+}
+
+.header {
+  margin: 0 auto;
+  width: 68%;
+  text-align: justify;
+  background-color: #335c67;
+  margin: 0px;
+  padding: 40px;
+}
+
+.header__title {
+  text-align: center;
+}
+
+.carousel {
+  overflow: scroll;
+  height: 100vh;
+  background-color: #9e2a2b;
+  position: relative;
+  width: 400px;
+  margin: 0px;
+}
+.carousel__container {
+  margin: 0px 60px;
+}
+
+.carousel__container-menu {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  overflow: hidden;
+  transition: 450ms;
+  transform-origin: center top;
+  cursor: pointer;
+}
+
+.carousel__container-menu:hover {
+  border-color: rgba(120, 120, 120, 1);
+  box-shadow: 0px 0px 32px 8px #540b0e;
+}
+
+.carousel__container-menu:hover ~ .carousel__container-menu {
+  transform: translate3d(0, 60px, 0);
+}
+
+.carousel__container:hover .carousel__container-menu:hover {
+  transform: scale(1.3);
+}
+.carousel__container-img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.carousel__container-run {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.carousel__icons {
+  display: flex;
+  width: 200px;
+}
+
+.carousel__icons img {
+  width: 40px;
+  border: 2px solid #335c67;
+  margin: 0px;
+  padding: 0px;
+}
+
+.carousel__icons p {
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
+.carousel__icons img:hover {
+  width: 40px;
+  border: 2px solid white;
+}
+
+.carousel__icons .info__play {
+  position: absolute;
+  top: 180px;
+  background-color: gray;
+  left: 5px;
+  right: 0;
+  bottom: 0px;
+  display: none;
+  width: 50px;
+  height: 20px;
+}
+
+.carousel__icons:hover .info__play,
+.info__play {
+  display: block;
+}
