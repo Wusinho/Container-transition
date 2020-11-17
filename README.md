@@ -9,10 +9,6 @@
 - HTML5
 - CSS3
 
-## Live Demo
-
-[News Week](https://rawcdn.githack.com/julian3493/newsweek-using-bootstrap/768cd735f7c102a1aff7bfbc038c2080a23e3c59/index.html)
-
 ## Getting Started
 
 **This project was created for the sole purpose of understanding how transition works.**
